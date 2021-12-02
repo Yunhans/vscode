@@ -16,13 +16,13 @@ int main(void)
     else if(x>0)
         if(y>0)
             printf("第一象限\n");
-            else
-                printf("第四象限\n");
+        else
+            printf("第四象限\n");
     else 
         if(y>0)
             printf("第二象限\n");
-            else
-                printf("第三象限\n");
+        else
+            printf("第三象限\n");
     system("pause");
     return 0;
 }
