@@ -59,8 +59,8 @@ int main(void){
             }
         }
     }
-    printf("在%s的%s時，有最高溫%.2f度\n",week[maxj],time[maxi+1],max);
-    printf("在%s的%s時，有最低溫%.2f度\n",week[minj],time[mini+1],min);
+    printf("在%s的%s時，有最高溫%.1f度\n",week[maxj],time[maxi+1],max);
+    printf("在%s的%s時，有最低溫%.1f度\n",week[minj],time[mini+1],min);
 
     system("pause");
     return 0;
