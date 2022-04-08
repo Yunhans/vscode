@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Extra{
+public class H1{
     public static void main(String [] args){
         Scanner input = new Scanner(System.in);
         int a,i=1;

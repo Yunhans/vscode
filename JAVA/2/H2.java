@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Homework2{
+public class H2{
    public static void main( String [] args ){
       float value = 200, price = 0;
 
