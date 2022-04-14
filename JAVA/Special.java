@@ -31,14 +31,14 @@ public class Special {
 
             if( name.equals("chygo") || name.equals("Chygo") || name.equals("燦錤") || name.equals("張燦錤") ){
 
-                if( month==3 && day==19 ){
+                if( month==4 && day==15 ){
                     control=0;
-                    desk.browse(new URI("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
-                }else if( (month == 3 && day<19) || month<3 ){
+                    desk.browse(new URI("https://youtu.be/JmYgC3qa6ec"));
+                }else if( (month == 4 && day<15) || month<4 ){
                     control=1;
                     name=null;
                     JOptionPane.showMessageDialog(null, "看樣子正確的時辰尚未到來\n要不要明天再試試看?\n(´･ω･`)", "早起的蟲兒被鳥吃", JOptionPane.INFORMATION_MESSAGE);
-                }else if( (month==3 && day>19) || month>3 ){
+                }else if( (month==4 && day>15) || month>4 ){
                     control=1;
                     name=null;
                     JOptionPane.showMessageDialog(null, "有些時候美好的事物錯過就不再了\n(´•︵•`)", "過了這個村就沒這個店了", JOptionPane.INFORMATION_MESSAGE);

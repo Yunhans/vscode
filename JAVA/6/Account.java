@@ -28,7 +28,7 @@ public class Account{
     }
 
     public void withdraw(double a){
-        if(a >= 0 && a<=balance){ balance-=a; }
+        if(a>=0 && a<=balance){ balance-=a; }
     }
 
     public Account(String name, String acctNo, double balance){
