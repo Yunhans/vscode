@@ -2,7 +2,6 @@ public class Course {
     private String courseName;
     private Student [] students = new Student [5];
     private String classmates="";
-    private int stNum;
 
     public Course(String courseName){
         this.courseName = courseName;
