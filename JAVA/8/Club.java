@@ -4,13 +4,13 @@ public class Club {
     private int totalFees;
 
     public void addMember(Member member){
-        if(members[19]!=null){
-            System.out.println("The club is full.");
+        if( members[members.length-1] != null ){
+            clubMembers += "The club is full\n";
         }
         for(int i=0; i<members.length; i++){
-            if(members[i] == null){
+            if( members[i] == null ){
                 members[i] = member;
-                clubMembers += members[i];
+                clubMembers += members[i].toString();
                 break;
             }
         }
@@ -18,7 +18,7 @@ public class Club {
 
     public int totalFees(){
         for(int i=0; i<members.length; i++){
-            if(members[i] != null){
+            if( members[i] != null ){
                 totalFees += members[i].getFee();
             }
         }
